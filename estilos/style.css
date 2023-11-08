@@ -74,10 +74,6 @@ div#formulario > p{
     font-size: 0.9em;
 }
 
-div.campo{
-    padding: 4px;
-}
-
 div.campo > span{
     color: white;
     font-size: 1.8em;
@@ -87,15 +83,15 @@ div.campo > span{
 
 div.campo > input{
     background-color: #ffffff;
-    font-size: 0.9em;
+    font-size: 1.1em;
     width: calc(100% - 45px);
     height: 100%;
-    border: none;
+    border: 0px;
     border-radius: 7px;
     padding: 10px;
     margin-bottom: 15px;
 
-    transform: translateY(-10px);
+    transform: translateY(-6px);
 }
 
 form > div.campo{
